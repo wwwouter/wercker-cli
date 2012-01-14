@@ -1,0 +1,9 @@
+{
+    "name": "wercker-cli",
+    "version": "0.0.1",
+    "dependencies": {
+        "async": "0.1.15",
+        "commander": "0.5.1"
+    },
+    "scripts" : { "test" : "nodeunit test"}
+}
