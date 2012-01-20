@@ -5,16 +5,18 @@
  */
 
 var program = require('commander');
+var wercker = require('lib/wercker.js');
 
 program
   .version('0.0.1')
 
 
 program
-    .command('init')
+    .command('create [env]')
     .description('create a wercker project')
     .action(function() {
-        console.log('-- create wercker project not implemented yet');
+        console.log('creating Wercker project with ' + env + ' environment');
+        wercker.create(env);
     });
 
 
