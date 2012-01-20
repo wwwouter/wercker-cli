@@ -6,5 +6,5 @@ exports.testGitConfigAvailable = function(test) {
         test.notEqual(result, null, 'Config should not be null');
         test.done();
     });
-}
+};
 
