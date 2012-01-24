@@ -6,7 +6,6 @@ exports.testGitConfigAvailable = function(test) {
     var repo = new Repository();
     
     repo.readConfig( function(result) {
-        console.log(result);
 
         test.notEqual( result, null, 'Config should not be null');
         
