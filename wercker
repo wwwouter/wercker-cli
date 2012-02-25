@@ -5,7 +5,7 @@
  */
 
 var program = require('commander');
-var wercker = require('lib/wercker.js').Wercker;
+var wercker = require('../lib/wercker.js').Wercker;
 
 program
   .version('0.0.1')
