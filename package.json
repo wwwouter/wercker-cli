@@ -9,6 +9,8 @@
         "request": "2.9.3"
     },
   "bin": { "wercker" : "./wercker" },
+  "main": "./wercker-cli",
 
-    "scripts" : { "test" : "nodeunit test"}
+    "scripts" : { "test" : "nodeunit test"},
+      "preferGlobal" : true
 }
