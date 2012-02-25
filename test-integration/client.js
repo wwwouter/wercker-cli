@@ -18,11 +18,11 @@ exports.test1= function(test) {
       console.log(err);
     }
     else{
-      console.log('done')
+      console.log('done');
     }
 
     test.done();
-  })
+  });
 
 
 
