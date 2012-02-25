@@ -13,4 +13,5 @@
 
     "scripts" : { "test" : "nodeunit test"},
       "preferGlobal" : true
+
 }
