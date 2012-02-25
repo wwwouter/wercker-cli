@@ -5,7 +5,9 @@
  */
 
 var program = require('commander');
-var wercker = require('./lib/wercker.js').Wercker;
+var Wercker = require('./lib/wercker.js').Wercker;
+var wercker = new Wercker();
+
 
 program
   .version('0.0.1')
@@ -14,7 +16,7 @@ program
 program
     .command('create [env]')
     .description('create a wercker project')
-    .action(function() {
+    .action(function(env) {
         console.log('creating Wercker project with ' + env + ' environment');
         wercker.create(env);
     });
