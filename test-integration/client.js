@@ -1,7 +1,7 @@
-
 var Client = require('../lib/client.js').Client;
 
 exports.test1= function(test) {
+  'use strict';
     test.expect(0);
 
 

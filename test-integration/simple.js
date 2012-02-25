@@ -4,6 +4,7 @@ var path = require('path');
 console.log(path.resolve('.git'));
 
 git.repo( path.resolve('../.git'), function() {
+  'use strict';
   console.log( 'Repo opened' );
 
   console.log(this);
