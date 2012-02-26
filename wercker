@@ -17,7 +17,7 @@ program
     .command('create [env]')
     .description('create a wercker project')
     .action(function(env) {
-        console.log('creating Wercker project with ' + env + ' environment');
+        console.log('Creating Wercker project with ' + env + ' environment');
         wercker.create(env);
     });
 
