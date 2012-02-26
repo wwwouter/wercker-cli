@@ -21,6 +21,14 @@ program
         wercker.create(env);
     });
 
+program
+    .command('template')
+    .description('installs the template for this project type')
+    .action(function(env) {
+        console.log('Retrieving the template files');
+        wercker.template();
+    });
+
 
 program.on('--help', function() {
     console.log(' Examples:');
