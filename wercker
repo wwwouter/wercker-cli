@@ -17,7 +17,7 @@ program
     .command('create [env]')
     .description('create a wercker project')
     .action(function(env) {
-        console.log('Creating Wercker project with ' + env + ' environment');
+        console.log('Creating Wercker project with ' + env + ' environment.');
         wercker.create(env);
     });
 
@@ -25,7 +25,7 @@ program
     .command('template')
     .description('installs the template for this project type')
     .action(function(env) {
-        console.log('Retrieving the template files');
+        console.log('Retrieving the template files.');
         wercker.template();
     });
 
