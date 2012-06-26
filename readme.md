@@ -1,4 +1,4 @@
-Wercker-cli
+#Wercker-cli
 
 * npm install -g git://github.com/wwwouter/wercker-cli.git
 
